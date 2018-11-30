@@ -6,17 +6,14 @@
 
 `qiu` is a wrapper:
 
-* for local development 
+* for _local_ development 
 * that makes common `httpie` functionality more terse
-
-📍 finish 'examples', repo, README, LICENSE, video, rm from `util-scripts`, https://github.com/search?q=httpie+wrapper
 
 # INSTALL
 
 * have Python 3
 * put `qiu` on `$PATH`
 * done  😌
-
 
 # FLAGS
 
@@ -32,15 +29,17 @@ __GET__
 ```
 # qiu
 qiu -po 5000 -pa books
-# httpie
 
+# httpie
+http http://127.0.0.1:5000/books
 ```
 
-__PUT__
+__POST__
 
 ```
 # qiu
-qiu -po 5000 -pa books/0812972864 -m PUT -j json/put.json
-# httpie
+qiu -po 5000 -pa books -m POST -j post.json
 
+# httpie
+http POST http://127.0.0.1:5000/books @json/post.json
 ```
