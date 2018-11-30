@@ -2,12 +2,10 @@
 
 <a href="https://asciinema.org/a/QLZgHjoIKusJYzpY2YwSSDaba" target="_blank"><img src="https://asciinema.org/a/QLZgHjoIKusJYzpY2YwSSDaba.png" alt="img" height="300px" align="right"/></a>
 
-[httpie](https://httpie.org/) is already great!
-
 `qiu` is a wrapper:
 
-* for _local_ development 
-* that makes common `httpie` functionality more terse
+* for __local__ development 
+* for __easy__ [httpie](https://httpie.org/) syntax
 
 # INSTALL
 
